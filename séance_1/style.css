@@ -1,0 +1,70 @@
+/*
+  Ce fichier CSS sert à styliser la page HTML.
+  Les commentaires en CSS sont écrits entre /* et */
+*/
+
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    /* Définit la police du texte */
+
+    background-color: #f4f4f4;
+    /* Couleur de fond de la page */
+
+    margin: 0;
+    padding: 20px;
+    /* Espaces autour du contenu */
+}
+
+/* Style du titre principal */
+h1 {
+    color: #2c3e50;
+    /* Couleur du texte */
+
+    text-align: center;
+    /* Centre le titre */
+}
+
+/* Style des sous-titres */
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+/* Style des paragraphes */
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    /* Espace entre les lignes */
+}
+
+/* Style de la liste */
+ul {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    /* Coins arrondis */
+}
+
+/* Style des éléments de la liste */
+li {
+    margin-bottom: 8px;
+}
+
+/* Style du lien */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    background-color: #3498db;
+    padding: 10px 15px;
+    text-decoration: none;
+    /* Supprime le soulignement */
+    border-radius: 5px;
+}
+
+/* Style du lien au survol de la souris */
+a:hover {
+    background-color: #2980b9;
+}
